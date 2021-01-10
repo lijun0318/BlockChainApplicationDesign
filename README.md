@@ -18,8 +18,6 @@
 
  
 
- 
-
 基于区块链的⾼校学⽣信息管理系统链改⽅案
 
  
@@ -98,7 +96,7 @@
 
 表***\*1\**** 链改模块总结
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps1.jpg) 
 
 ​               （续）表***\*1\**** 链改模块总结
 
@@ -138,7 +136,7 @@
 
 表***\*2\**** 新型凭证系统相对于传统凭证系统的优势
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps2.jpg) 
 
 ***\*1\**** ⾼校学⽣信息管理系统业务描述
 
@@ -146,7 +144,7 @@
 
 对于⽬前的各⼤⾼校⽽⾔，学⽣信息管理系统基本相同，可划分为如下模块：
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps3.jpg) 
 
 ***\*图1 系统总体功能结构图\****
 
@@ -160,7 +158,7 @@
 
 业务信息管理功能结构图如下图所示：
 
-​    ![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W)
+​    ![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps4.jpg)
 
 图***\*2\**** 业务信息管理模块
 
@@ -180,7 +178,7 @@
 
 复。
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps5.jpg) 
 
 图***\*3\**** 信息反馈模块
 
@@ -212,7 +210,7 @@
 
 对于和学⽣利益挂钩的部分⽽⾔，简要运⾏流程如下图所示。学⽣仅具有两种权限：查询信息与提交申请，具体的审批由管理员（例如辅导员）全权负责。
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps25.jpg?token=ANGHKQJCLXYDX3WPVFWXV6C74QE7W) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps6.jpg) 
 
 图***\*4\**** 与学⽣利益挂钩部分的运⾏流程
 
@@ -244,7 +242,7 @@
 
 简要运⾏流程如下图所示，学校要求学⽣向学校⼀次性地提供就业信息：
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps26.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps7.jpg) 
 
 图***\*5\**** 和学⽣利益⽆关部分的运⾏流程
 
@@ -258,7 +256,7 @@
 
 学⽣提交反馈信息，管理⼈员处理后通知。
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps27.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps8.jpg) 
 
 ***\*（2）传统⽅案的弊病\**** 
 
@@ -302,7 +300,7 @@
 
 因此，我们⾸先可以做的，是通过 DID 对传统的学⽣信息管理模块进⾏链改，在诸如⼤学城的环境中实 现学⽣卡的「跨校使⽤」。 以腾讯 WeIdentity 为例，我们来简要阐明数字身份的基本架构。
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps28.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps9.jpg) 
 
 图***\*7\**** 数字身份的基本架构
 
@@ -356,7 +354,7 @@
 
  
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps29.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps10.jpg) 
 
 图***\*8\**** 数字身份架构与⾼校学⽣信息管理系统的对接
 
@@ -364,7 +362,7 @@
 
 在 2.1.1.1节 的系统架构的基础上，数据结构如下所示：
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps30.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps11.jpg) 
 
 图***\*9\**** 数字身份系统的数据结构
 
@@ -404,7 +402,7 @@
 
 相较于信息管理模块，业务信息管理模块的链改更进⼀步，在经过学⽣同意的情况下，将学⽣的⾏为轨迹记录在链上。 我们以学⽣⼩明的⼤学⽣涯为例说明⾏为轨迹是如何记录的：
 
-​       ![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps31.jpg)
+​       ![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps12.jpg)
 
 图***\*11\**** ⼩明的⾏为轨迹记录流程
 
@@ -412,7 +410,7 @@
 
 录附着在社⻓身份凭证上。在纳⼊⾏为轨迹记录的功能模块后，我们可以展示出 2.1.1.3节 中所描述的数字身份系统的数据结构的全貌了：
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps32.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps13.jpg) 
 
  
 
@@ -420,7 +418,7 @@
 
 在纳⼊⾏为轨迹记录的功能模块后，图 4 所描述的传统运⾏流程将转变为如下图所示的新流程：
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps33.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps14.jpg) 
 
 图***\*13\**** 链改改变运⾏流程
 
@@ -452,7 +450,7 @@
 
 ***\*2.3.1 链改⽅案\****
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps34.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps15.jpg) 
 
 图***\*14\**** 信息反馈模块的链改
 
@@ -602,7 +600,7 @@
 
 我们再来回顾⼀下 2.2.1节 中所提到的完整的数字身份系统的数据结构：
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps35.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps16.jpg) 
 
 图***\*12\**** 完整的数字身份系统的数据结构 ***\*—\**** 以某学⽣为例
 
@@ -716,7 +714,7 @@ Wilson(1995)认为：学习环境是这样一个场所，学习者在这里相�
 
 ***\*三，学习小组结构图及成员选取：\****
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps36.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps17.jpg) 
 
  
 
@@ -772,7 +770,7 @@ Wilson(1995)认为：学习环境是这样一个场所，学习者在这里相�
 
 2.成员结构
 
-![img](C:\Users\LiJun\AppData\Local\Temp\ksohtml9972\wps37.jpg) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps18.jpg) 
 
  
 
@@ -816,7 +814,7 @@ Wilson(1995)认为：学习环境是这样一个场所，学习者在这里相�
 
  
 
-![img](https://raw.githubusercontent.com/lijun0318/PicGo/master/img/wps38.jpg?token=ANGHKQO7PV6RMGOALQJ6U7S74QFA4) 
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps19.jpg) 
 
  
 
@@ -906,177 +904,349 @@ Wilson(1995)认为：学习环境是这样一个场所，学习者在这里相�
 
 \2. 利用“供应链”模式，解决数字身份系统的运用。
 
-```java
+一，身份认证单位
+
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps20.jpg) 
+
+二，身份认证流程图
+
+![img](file:///C:\Users\LiJun\AppData\Local\Temp\ksohtml13928\wps21.jpg)
+
+三，代码
+
 // SPDX-License-Identifier: MIT
+
 pragma solidity >0.5.0;
+
+ 
 
 // import './ERC721.sol';
 
-// /// @notice The Ecommerce Token that implements the ERC721 token with mint function
-// /// @author Merunas Grincalaitis <merunasgrincalaitis@gmail.com>
-// contract EcommerceToken is ERC721 {
-//     address public ecommerce;
-//     bool public isEcommerceSet = false;
-//     /// @notice To generate a new token for the specified address
-//     /// @param _to The receiver of this new token
-//     /// @param _tokenId The new token id, must be unique
-//     function mint(address _to, uint256 _tokenId) public {
-//         require(msg.sender == ecommerce, 'Only the ecommerce contract can mint new tokens');
-//         _mint(_to, _tokenId);
-//     }
+ 
 
-//     /// @notice To set the ecommerce smart contract address
-//     function setEcommerce(address _ecommerce) public {
-//         require(!isEcommerceSet, 'The ecommerce address can only be set once');
-//         require(_ecommerce != address(0), 'The ecommerce address cannot be empty');
-//         isEcommerceSet = true;
-//         ecommerce = _ecommerce;
-//     }
+// /// @notice The Ecommerce Token that implements the ERC721 token with mint function
+
+// /// @author Merunas Grincalaitis <merunasgrincalaitis@gmail.com>
+
+// contract EcommerceToken is ERC721 {
+
+//   address public ecommerce;
+
+//   bool public isEcommerceSet = false;
+
+//   /// @notice To generate a new token for the specified address
+
+//   /// @param _to The receiver of this new token
+
+//   /// @param _tokenId The new token id, must be unique
+
+//   function mint(address _to, uint256 _tokenId) public {
+
+//     require(msg.sender == ecommerce, 'Only the ecommerce contract can mint new tokens');
+
+//     _mint(_to, _tokenId);
+
+//   }
+
+ 
+
+//   /// @notice To set the ecommerce smart contract address
+
+//   function setEcommerce(address _ecommerce) public {
+
+//     require(!isEcommerceSet, 'The ecommerce address can only be set once');
+
+//     require(_ecommerce != address(0), 'The ecommerce address cannot be empty');
+
+//     isEcommerceSet = true;
+
+//     ecommerce = _ecommerce;
+
+//   }
+
 // }
 
+ 
+
 contract EducationParticipantMsg{
-    uint32 public dutyId_id = 0;
-    uint32 public participant_id = 0;
-    uint32 public owner_id = 0;
-   
-   //学生各种身份认证的参与者（包括身份授权人和身份认证者）
-   struct participant{
-        string userName;
-        string password;
-        string participantType;
-        address participantAddress;
-    }
-    mapping (uint32 => participant) public participants;
-    
-    
-    //学生身份的职责和权力
-     struct duty{
-        string position;
-        string work;
-        string power;
-        address dutyOwner;
-        uint32 mfgTimeStamp;
-     }
-     mapping(uint32 => duty) public duties;
-    
-    //身份职责的所属人
-    struct ownership{
-        uint32 dutyId;
-        uint32 ownerId;
-        uint32 trxTimeStamp;
-        address dutyOwner;
-    }
-    
-    mapping(uint32 => ownership) public ownerships;
-    mapping(uint32 => uint32[]) public dutyTrack;
-    
-    event TransferOwnership(uint32 dutyId);
-    
-    //添加身份认证的参与者
-    function addParticipant(string memory _name,string memory _pass,address _pAdd, string memory _pType) public returns(uint32){
-        uint32 userId = participant_id++;
-        participants[userId].userName = _name;
-        participants[userId].password = _pass;
-        participants[userId].participantAddress = _pAdd;
-        participants[userId].participantType = _pType;
 
-        return userId;
-    }
-    
-    function getParticipant(uint32 _participant_id) public view returns(string memory,address,string memory){
-        return(participants[_participant_id].userName,participants[_participant_id].participantAddress,participants[_participant_id].participantType);
-    }
-    
-    function addduty(uint32 _ownerId,
-                        string memory _position,
-                        string memory _work,
-                        string memory _power
-                        ) public returns(uint32){
-        if(keccak256(abi.encodePacked(participants[_ownerId].participantType)) == keccak256("Authorized person")){
-            uint32 dutyId = dutyId_id++;
-            duties[dutyId].position = _position;
-            duties[dutyId].work = _work;
-            duties[dutyId].power = _power;
-            duties[dutyId].dutyOwner = participants[_ownerId].participantAddress;
-            duties[dutyId].mfgTimeStamp = uint32(block.timestamp);
-            
-            return dutyId;
-        }
-        return 0;
-    }
-    
-    function getduty(uint32 _dutyId) public view returns(string memory,string memory,string memory,address,uint32){
-        return (duties[_dutyId].position,
-        duties[_dutyId].work,
-        duties[_dutyId].power,
-        duties[_dutyId].dutyOwner,
-        duties[_dutyId].mfgTimeStamp
-        );
-    }
-    
-    modifier onlyOwner(uint32 _dutyId){
-        require(msg.sender == duties[_dutyId].dutyOwner,"Not Owner");
-        _;
-    }
-    
-    function newOwner(uint32 _user1Id,uint32 _user2Id, uint32 _dutyId) public onlyOwner(_dutyId) returns(bool){
-        participant memory p1 = participants[_user1Id];
-        participant memory p2 = participants[_user2Id];
-        uint32 ownership_id = owner_id++;
-        
-        if(keccak256(abi.encodePacked(p1.participantType))== keccak256("Authorized person")
-        && keccak256(abi.encodePacked(p2.participantType)) == keccak256("Identity participant")){
-            ownerships[ownership_id].dutyId = _dutyId;
-            ownerships[ownership_id].dutyOwner = p2.participantAddress;
-            ownerships[ownership_id].ownerId = _user2Id;
-            ownerships[ownership_id].trxTimeStamp = uint32(block.timestamp);
-            duties[_dutyId].dutyOwner = p2.participantAddress;
-            dutyTrack[_dutyId].push(ownership_id);
-            emit TransferOwnership(_dutyId);
-            
-            return(true);
-        } 
-    }
-    
-     function getProvenance(uint32 _dutyId) external view returns(uint32[] memory){
-        return dutyTrack[_dutyId];
-    }
-    
-    function getOwnership(uint32 _regId) public view returns (uint32,uint32,address,uint32){
-        ownership memory r = ownerships[_regId];
-        return(r.dutyId,r.ownerId,r.dutyOwner,r.trxTimeStamp);
-    }
-    
-    function authenticateParticipant(uint32 _uid,
-        string memory _uname,
-        string memory _pass,
-        string memory _utype
-        ) public view returns(bool){
-        if(
-            keccak256(abi.encodePacked(participants[_uid].participantType)) == 
-            keccak256(abi.encodePacked(_utype))
-            ){
-            if(
-                keccak256(abi.encodePacked(participants[_uid].userName))==
-                keccak256(abi.encodePacked(_uname))
-                ){
-                if(
-                    keccak256(abi.encodePacked(participants[_uid].password))==
-                    keccak256(abi.encodePacked(_pass))){
-                    return(true);
-                }
-            }
-        }
-        return(false);
-    }
+  uint32 public dutyId_id = 0;
+
+  uint32 public participant_id = 0;
+
+  uint32 public owner_id = 0;
+
+  
+
+  //学生各种身份认证的参与者（包括身份授权人和身份认证者）
+
+  struct participant{
+
+​    string userName;
+
+​    string password;
+
+​    string participantType;
+
+​    address participantAddress;
+
+  }
+
+  mapping (uint32 => participant) public participants;
+
+  
+
+  
+
+  //学生身份的职责和权力
+
+   struct duty{
+
+​    string position;
+
+​    string work;
+
+​    string power;
+
+​    address dutyOwner;
+
+​    uint32 mfgTimeStamp;
+
+   }
+
+   mapping(uint32 => duty) public duties;
+
+  
+
+  //身份职责的所属人
+
+  struct ownership{
+
+​    uint32 dutyId;
+
+​    uint32 ownerId;
+
+​    uint32 trxTimeStamp;
+
+​    address dutyOwner;
+
+  }
+
+  
+
+  mapping(uint32 => ownership) public ownerships;
+
+  mapping(uint32 => uint32[]) public dutyTrack;
+
+  
+
+  event TransferOwnership(uint32 dutyId);
+
+  
+
+  //添加身份认证的参与者
+
+  function addParticipant(string memory _name,string memory _pass,address _pAdd, string memory _pType) public returns(uint32){
+
+​    uint32 userId = participant_id++;
+
+​    participants[userId].userName = _name;
+
+​    participants[userId].password = _pass;
+
+​    participants[userId].participantAddress = _pAdd;
+
+​    participants[userId].participantType = _pType;
+
+ 
+
+​    return userId;
+
+  }
+
+  
+
+  function getParticipant(uint32 _participant_id) public view returns(string memory,address,string memory){
+
+​    return(participants[_participant_id].userName,participants[_participant_id].participantAddress,participants[_participant_id].participantType);
+
+  }
+
+  
+
+  function addduty(uint32 _ownerId,
+
+​            string memory _position,
+
+​            string memory _work,
+
+​            string memory _power
+
+​            ) public returns(uint32){
+
+​    if(keccak256(abi.encodePacked(participants[_ownerId].participantType)) == keccak256("Authorized person")){
+
+​      uint32 dutyId = dutyId_id++;
+
+​      duties[dutyId].position = _position;
+
+​      duties[dutyId].work = _work;
+
+​      duties[dutyId].power = _power;
+
+​      duties[dutyId].dutyOwner = participants[_ownerId].participantAddress;
+
+​      duties[dutyId].mfgTimeStamp = uint32(block.timestamp);
+
+​      
+
+​      return dutyId;
+
+​    }
+
+​    return 0;
+
+  }
+
+  
+
+  function getduty(uint32 _dutyId) public view returns(string memory,string memory,string memory,address,uint32){
+
+​    return (duties[_dutyId].position,
+
+​    duties[_dutyId].work,
+
+​    duties[_dutyId].power,
+
+​    duties[_dutyId].dutyOwner,
+
+​    duties[_dutyId].mfgTimeStamp
+
+​    );
+
+  }
+
+  
+
+  modifier onlyOwner(uint32 _dutyId){
+
+​    require(msg.sender == duties[_dutyId].dutyOwner,"Not Owner");
+
+​    _;
+
+  }
+
+  
+
+  function newOwner(uint32 _user1Id,uint32 _user2Id, uint32 _dutyId) public onlyOwner(_dutyId) returns(bool){
+
+​    participant memory p1 = participants[_user1Id];
+
+​    participant memory p2 = participants[_user2Id];
+
+​    uint32 ownership_id = owner_id++;
+
+​    
+
+​    if(keccak256(abi.encodePacked(p1.participantType))== keccak256("Authorized person")
+
+​    && keccak256(abi.encodePacked(p2.participantType)) == keccak256("Identity participant")){
+
+​      ownerships[ownership_id].dutyId = _dutyId;
+
+​      ownerships[ownership_id].dutyOwner = p2.participantAddress;
+
+​      ownerships[ownership_id].ownerId = _user2Id;
+
+​      ownerships[ownership_id].trxTimeStamp = uint32(block.timestamp);
+
+​      duties[_dutyId].dutyOwner = p2.participantAddress;
+
+​      dutyTrack[_dutyId].push(ownership_id);
+
+​      emit TransferOwnership(_dutyId);
+
+​      
+
+​      return(true);
+
+​    } 
+
+  }
+
+  
+
+   function getProvenance(uint32 _dutyId) external view returns(uint32[] memory){
+
+​    return dutyTrack[_dutyId];
+
+  }
+
+  
+
+  function getOwnership(uint32 _regId) public view returns (uint32,uint32,address,uint32){
+
+​    ownership memory r = ownerships[_regId];
+
+​    return(r.dutyId,r.ownerId,r.dutyOwner,r.trxTimeStamp);
+
+  }
+
+  
+
+  function authenticateParticipant(uint32 _uid,
+
+​    string memory _uname,
+
+​    string memory _pass,
+
+​    string memory _utype
+
+​    ) public view returns(bool){
+
+​    if(
+
+​      keccak256(abi.encodePacked(participants[_uid].participantType)) == 
+
+​      keccak256(abi.encodePacked(_utype))
+
+​      ){
+
+​      if(
+
+​        keccak256(abi.encodePacked(participants[_uid].userName))==
+
+​        keccak256(abi.encodePacked(_uname))
+
+​        ){
+
+​        if(
+
+​          keccak256(abi.encodePacked(participants[_uid].password))==
+
+​          keccak256(abi.encodePacked(_pass))){
+
+​          return(true);
+
+​        }
+
+​      }
+
+​    }
+
+​    return(false);
+
+  }
+
 }
-```
 
  
 
  
 
- 
+五，代码实现
+
+ 对于区块链的身份认证，该代码仿用的是供应链的思维。在现实场景中，学生工作的开展常常在一开始得到不信任，该代码将学生的身份或者职位视为供应链中的产品，提供学生身份认证的检验与授权，促进学生开展相应的工作。该代码只对学生身份的转移进行了确认，还存在着不足。如还可以对学生身份的部分职位的授权设置民主投票的功能，对学生职位的行程轨迹记录的功能....等等都是一个将可优化的方向。
 
  
 
